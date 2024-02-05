@@ -1,0 +1,96 @@
+
+  :root {
+    --themeColor: #ddd;
+    --darkColor: #172044;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104,104,104, 0.8);
+
+}
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--darkColor);
+}
+
+body {
+    background: #ccc;
+    margin: 30px 50px;
+    line-height: 1.4;
+
+}
+
+.footer{
+  margin-top: 2rem;
+  background: var(--darkColor);
+  color: var(--light);
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.main-nav ul{
+  display: grid;
+  grid-gap: 20px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.main-nav a{
+  background: var(--themeColor);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: var(--darkColor);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+
+}
+
+.main-nav a:hover{
+  background: var(--darkColor);
+  color: var(--light);
+}
+
+textarea {
+  width:80%;
+  resize: vertical;
+  padding:15px;
+  height:120px;
+  margin: 15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+
+}
+
+button{
+  background: var(--themeColor);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: var(--darkColor);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+}
+
+input {
+  width: 30%;
+  resize: vertical;
+  padding: 15px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
+}
+

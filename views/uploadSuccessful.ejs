@@ -1,0 +1,10 @@
+<%- include('header.ejs') %>
+    <a href="/" class="link">Go Back</a>
+    <h2>DAD JOKES OF THE DAY</h2>
+    <h3 style="color: blueviolet;">New dad joke alert : <%= listOfJokes[listOfJokes.length-1].joke%></h3>
+    <% listOfJokes.forEach(jokeObj=>{ %>
+        <li>
+            <%=jokeObj.joke %>
+        </li>
+        <% }) %>
+            <%- include('footer.ejs') %>

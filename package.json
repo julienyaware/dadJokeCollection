@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-express-julienyaware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvsucis658-1/intro-to-express-julienyaware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvsucis658-1/intro-to-express-julienyaware/issues"
+  },
+  "homepage": "https://github.com/gvsucis658-1/intro-to-express-julienyaware#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
